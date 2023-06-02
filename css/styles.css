@@ -113,6 +113,47 @@ padding: 50px 0 20px;
   margin-left: 30px;
 }
 
+.icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  font-family: fantasy;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+
+
+.fa:hover {
+    opacity: 0.5;
+	cursor: pointer;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
 .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #1199E);
